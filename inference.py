@@ -137,11 +137,11 @@ def main():
     print('Initializing Inference Process..')
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_clean_wavs_dir', default='/media/lz-4060ti-linux/SE/SE/VB_DEMAND_16K/clean_train')
+    parser.add_argument('--input_clean_wavs_dir', default='/PATH/TO/YOUR//CLEAN/FILE/VB_DEMAND_16K/clean_train')
     # 选择噪声文件夹
-    parser.add_argument('--input_noisy_wavs_dir', default='/media/lz-4060ti-linux/SE/SE/VB_DEMAND_16K/noisy_test')
+    parser.add_argument('--input_noisy_wavs_dir', default='/PATH/TO/YOUR//NOISY/FILE/VB_DEMAND_16K/noisy_test')
     # parser.add_argument('--input_test_file', default='VoiceBank+DEMAND/test.txt')
-    parser.add_argument('--output_dir', default='generated_files542000')
+    parser.add_argument('--output_dir', default='generated_files')
     parser.add_argument('--checkpoint_file', required=True)
     a = parser.parse_args()
 
