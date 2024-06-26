@@ -35,6 +35,11 @@ Then replace the test.txt and training.txt with generated files in folder ./Voic
 python inference.py --checkpoint_file /PATH/TO/YOUR/CHECK_POINT/g_xxxxxxx
 ```
 You can also use the pretrained best checkpoint file we provide in `paper_result/g_best`.<br>
+
+我们提供了测试用的音频文件以避免音频处理导致的不同结果：
+```
+https://pan.baidu.com/s/1CVGK85zHlR3UPMnWWgP6rQ?pwd=1017 提取码: 1017 
+```
 Generated wav files are saved in `generated_files` by default.<br>
 You can change the path by adding `--output_dir` option.
 
