@@ -1,4 +1,4 @@
-# MUSE: Flexible Voiceprint Receptive Fields and Multi-Path Fusion Enhanced Taylor Transformer for U-Net-based Speech Enhancemen
+# MUSE: Flexible Voiceprint Receptive Fields and Multi-Path Fusion Enhanced Taylor Transformer for U-Net-based Speech Enhancemen (Accepeted at Interspeech 2024)
 ### Zizhen Lin, Xiaoting Chen, Junyu Wang
 
 **Abstract:** 
